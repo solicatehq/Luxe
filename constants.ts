@@ -14,42 +14,42 @@ export const PROJECTS: Project[] = [
     title: 'Morning Skincare Routine',
     category: 'UGC Reel',
     // Aesthetic bathroom sink/skincare
-    thumbnailUrl: 'https://images.unsplash.com/photo-1556228720-19de75252874?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: '2',
     title: 'Summer Outfit Haul',
     category: 'Lifestyle',
     // Fashion/mirror selfie vibe
-    thumbnailUrl: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: '3',
     title: 'Product Unboxing: Serum',
     category: 'Product Demo',
     // Minimalist product shot
-    thumbnailUrl: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: '4',
     title: 'Aesthetic Coffee Shop',
     category: 'Lifestyle Integration',
     // Coffee shop interior
-    thumbnailUrl: 'https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: '5',
     title: 'Jewelry Closeup',
     category: 'Aesthetic Shots',
     // Jewelry detail
-    thumbnailUrl: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: '6',
     title: 'Night Routine Voiceover',
     category: 'Voiceover',
     // Cozy bed/book
-    thumbnailUrl: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800&auto=format&fit=crop',
   },
 ];
 
