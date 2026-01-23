@@ -114,7 +114,7 @@ export const Contact: React.FC = () => {
                         Open in Email <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </a>
-                  <p className="text-center text-xs text-stone-500 mt-4">Opens your default email client</p>
+
                 </div>
             </div>
           </div>
