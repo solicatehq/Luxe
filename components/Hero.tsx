@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Main Name Impact */}
-        <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-stone-900 leading-[0.9] tracking-tighter mb-8 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
+        <h1 className="font-display text-6xl md:text-8xl lg:text-9xl text-stone-900 leading-[0.9] tracking-tighter mb-8 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
           Ayesha Malkani
         </h1>
 
