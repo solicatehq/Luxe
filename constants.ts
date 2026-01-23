@@ -87,26 +87,38 @@ export const RATES: RatePackage[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    author: 'Marketing Manager @ Foxtale',
-    platform: 'WhatsApp',
-    text: 'The video quality was amazing! Exactly the aesthetic we were looking for. High conversion on this one.',
+    author: 'radiome',
+    platform: 'Instagram',
+    text: 'It was a really nice experience working with you Ayesha',
   },
   {
     id: '2',
-    author: 'Founder @ Rudementary',
+    author: 'N4N',
     platform: 'Instagram',
-    text: 'Loved how natural the integration felt. You really understood the brand vibe perfectly.',
+    text: 'content with creativity in barter collab is so impressive will contact you for further collaborations❤️',
   },
   {
     id: '3',
-    author: 'Agency Partner',
-    platform: 'WhatsApp',
-    text: 'Super professional to work with. Timely delivery and minimal edits needed. Will book again!',
+    author: 'ossa perfume',
+    platform: 'Instagram',
+    text: 'We truly appreciate the effort you put into creating this amazing reel for our brand.It was wonderful collaborating with you!',
   },
   {
     id: '4',
-    author: 'Social Lead @ Swiss Beauty',
+    author: 'lascent perfume',
     platform: 'Instagram',
-    text: 'The best UGC creator we have worked with this quarter. The lighting was impeccable.',
+    text: 'Thank you so much for the wonderful collaboration. I’m really happy with the way you showcased my perfume-the content was creative, elegant, and perfectly aligned with the brand. The response has been very positive, and I truly appreciate the effort and professionalism you put into this project. Looking forward to working together again in the future 🌹✨',
+  },
+  {
+    id: '5',
+    author: 'Glow Alchemist',
+    platform: 'Instagram',
+    text: 'The aesthetic of the shots was exactly what we envisioned. Your attention to detail is unmatched. Loved working with you!',
+  },
+  {
+    id: '6',
+    author: 'Aurelia',
+    platform: 'Instagram',
+    text: 'Incredible turnaround time and stunning visuals. You perfectly captured the essence of our collection. Can\'t wait for the next campaign.',
   },
 ];
