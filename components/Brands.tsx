@@ -14,8 +14,8 @@ export const Brands: React.FC = () => {
                 </div>
 
                 <div className="mb-12">
-                    <h3 className="text-center text-xs font-sans uppercase tracking-[0.2em] text-stone-400 mb-8">Domestic Partners</h3>
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-12 items-center justify-items-center opacity-70">
+                    <h3 className="text-center text-xs font-sans uppercase tracking-[0.2em] text-stone-400 mb-8">National Brands</h3>
+                    <div className="flex flex-wrap justify-center gap-8 md:gap-12 items-center opacity-70">
                         {domestic.map((brand) => (
                             <div key={brand.name} className="text-center group">
                                 <span className="font-serif text-xl md:text-2xl text-stone-400 group-hover:text-stone-800 transition-colors cursor-default">

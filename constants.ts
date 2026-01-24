@@ -96,15 +96,23 @@ export const PROJECTS: Project[] = [
 ];
 
 export const BRANDS: Brand[] = [
-  { name: 'Dot & Key', type: 'Domestic' },
+  // Domestic (National)
+  { name: 'Dot n key', type: 'Domestic' },
   { name: 'Foxtale', type: 'Domestic' },
-  { name: 'Swiss Beauty', type: 'Domestic' },
-  { name: 'Rudementary', type: 'Domestic' },
-  { name: 'Lascent', type: 'Domestic' },
-  { name: 'BellaVita', type: 'Domestic' },
-  { name: 'Glossier (Collab)', type: 'International' },
-  { name: 'CeraVe (Collab)', type: 'International' },
-  { name: 'The Ordinary (Collab)', type: 'International' },
+  { name: 'Bellavita', type: 'Domestic' },
+  { name: 'Swiss beauty', type: 'Domestic' },
+  { name: 'Dazzler', type: 'Domestic' },
+  { name: 'Garnier', type: 'Domestic' },
+  { name: 'Indus Valley', type: 'Domestic' },
+  { name: 'Callidus', type: 'Domestic' },
+  { name: 'Rudimentary', type: 'Domestic' },
+
+  // International
+  { name: 'Klairs', type: 'International' },
+  { name: 'dA’lba', type: 'International' },
+  { name: 'Kaine', type: 'International' },
+  { name: 'Bioderma', type: 'International' },
+  { name: 'Pixel pure', type: 'International' },
 ];
 
 export const RATES: RatePackage[] = [
