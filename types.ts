@@ -4,6 +4,7 @@ export interface Project {
   category: string;
   thumbnailUrl: string;
   videoUrl?: string; // In a real app, this would be the video source
+  type: 'video' | 'image';
 }
 
 export interface Brand {

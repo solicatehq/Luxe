@@ -9,47 +9,75 @@ export const NAV_LINKS = [
 ];
 
 export const PROJECTS: Project[] = [
+  // VIDEOS
   {
     id: '1',
     title: 'Morning Skincare Routine',
     category: 'UGC Reel',
-    // Aesthetic bathroom sink/skincare
-    thumbnailUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: '/luxephoto1.jpeg',
+    videoUrl: '/luxevideo1.mp4',
+    type: 'video',
   },
   {
     id: '2',
     title: 'Summer Outfit Haul',
     category: 'Lifestyle',
-    // Fashion/mirror selfie vibe
-    thumbnailUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: '/luxephoto2.jpeg',
+    videoUrl: '/luxevideo2.mp4',
+    type: 'video',
   },
   {
     id: '3',
     title: 'Product Unboxing: Serum',
     category: 'Product Demo',
-    // Minimalist product shot
-    thumbnailUrl: 'https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: '/luxephoto3.jpeg',
+    videoUrl: '/luxevideo3.mp4',
+    type: 'video',
   },
   {
     id: '4',
     title: 'Aesthetic Coffee Shop',
     category: 'Lifestyle Integration',
-    // Coffee shop interior
-    thumbnailUrl: 'https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: '/luxephoto4.jpeg',
+    videoUrl: '/luxevideo4.mp4',
+    type: 'video',
   },
   {
     id: '5',
     title: 'Jewelry Closeup',
     category: 'Aesthetic Shots',
-    // Jewelry detail
-    thumbnailUrl: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
+    thumbnailUrl: '/luxephoto1.jpeg',
+    videoUrl: '/luxevideo5.mp4',
+    type: 'video',
   },
+  // IMAGES
   {
     id: '6',
-    title: 'Night Routine Voiceover',
-    category: 'Voiceover',
-    // Cozy bed/book
-    thumbnailUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800&auto=format&fit=crop',
+    title: 'Minimalist Decor',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto1.jpeg',
+    type: 'image',
+  },
+  {
+    id: '7',
+    title: 'Fashion Editorial',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto2.jpeg',
+    type: 'image',
+  },
+  {
+    id: '8',
+    title: 'Product Stylized',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto3.jpeg',
+    type: 'image',
+  },
+  {
+    id: '9',
+    title: 'Café Vibes',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto4.jpeg',
+    type: 'image',
   },
 ];
 
