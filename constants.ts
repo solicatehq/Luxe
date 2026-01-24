@@ -159,16 +159,4 @@ export const TESTIMONIALS: Testimonial[] = [
     platform: 'Instagram',
     text: 'Thank you so much for the wonderful collaboration. I’m really happy with the way you showcased my perfume-the content was creative, elegant, and perfectly aligned with the brand. The response has been very positive, and I truly appreciate the effort and professionalism you put into this project. Looking forward to working together again in the future 🌹✨',
   },
-  {
-    id: '5',
-    author: 'Glow Alchemist',
-    platform: 'Instagram',
-    text: 'The aesthetic of the shots was exactly what we envisioned. Your attention to detail is unmatched. Loved working with you!',
-  },
-  {
-    id: '6',
-    author: 'Aurelia',
-    platform: 'Instagram',
-    text: 'Incredible turnaround time and stunning visuals. You perfectly captured the essence of our collection. Can\'t wait for the next campaign.',
-  },
 ];
