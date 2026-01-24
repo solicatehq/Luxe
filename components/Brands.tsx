@@ -6,7 +6,7 @@ export const Brands: React.FC = () => {
     const international = BRANDS.filter(b => b.type === 'International');
 
     return (
-        <section id="brands" className="py-24 bg-white border-y border-stone-100">
+        <section id="brands" className="py-24 bg-beige-200 border-y border-stone-100">
             <div className="max-w-5xl mx-auto px-6">
 
                 <div className="text-center mb-16">

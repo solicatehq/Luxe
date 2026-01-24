@@ -79,6 +79,20 @@ export const PROJECTS: Project[] = [
     thumbnailUrl: '/luxephoto4.jpeg',
     type: 'image',
   },
+  {
+    id: '10',
+    title: 'Visual Story',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto5.jpeg',
+    type: 'image',
+  },
+  {
+    id: '11',
+    title: 'Atmosphere',
+    category: 'Photography',
+    thumbnailUrl: '/luxephoto6.jpeg',
+    type: 'image',
+  },
 ];
 
 export const BRANDS: Brand[] = [

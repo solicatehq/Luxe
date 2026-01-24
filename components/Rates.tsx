@@ -4,7 +4,7 @@ import { Check } from 'lucide-react';
 
 export const Rates: React.FC = () => {
   return (
-    <section id="rates" className="py-24 bg-beige-200">
+    <section id="rates" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl text-stone-800 mb-4">Investment</h2>
@@ -13,12 +13,12 @@ export const Rates: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {RATES.map((rate, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`
                 relative p-8 md:p-10 transition-all duration-300
-                ${rate.isHighlight 
-                  ? 'bg-white shadow-xl scale-100 md:scale-105 z-10' 
+                ${rate.isHighlight
+                  ? 'bg-white shadow-xl scale-100 md:scale-105 z-10 border border-stone-100'
                   : 'bg-beige-100 border border-beige-300 text-stone-600'}
               `}
             >
@@ -45,18 +45,18 @@ export const Rates: React.FC = () => {
               </ul>
 
               {rate.isHighlight && (
-                 <div className="text-center mt-auto">
-                    <p className="text-xs text-stone-400 italic">Deliverables within 5-7 days</p>
-                 </div>
+                <div className="text-center mt-auto">
+                  <p className="text-xs text-stone-400 italic">Deliverables within 5-7 days</p>
+                </div>
               )}
             </div>
           ))}
         </div>
 
         <div className="mt-16 text-center">
-            <p className="text-stone-600 border border-stone-300 inline-block py-4 px-8 bg-beige-100/50 backdrop-blur-sm">
-                For bundle packages and custom requirements, please <a href="#contact" className="underline underline-offset-4 decoration-stone-400 hover:text-stone-900 transition-colors">contact directly</a>.
-            </p>
+          <p className="text-stone-600 border border-stone-300 inline-block py-4 px-8 bg-beige-100/50 backdrop-blur-sm">
+            For bundle packages and custom requirements, please <a href="#contact" className="underline underline-offset-4 decoration-stone-400 hover:text-stone-900 transition-colors">contact directly</a>.
+          </p>
         </div>
 
       </div>

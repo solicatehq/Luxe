@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PROJECTS } from '../constants';
 import { Play, X } from 'lucide-react';
 import { Project } from '../types';
@@ -6,11 +6,18 @@ import { Project } from '../types';
 export const Portfolio: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [filter, setFilter] = useState<'video' | 'image'>('video');
+  const [projects, setProjects] = useState<Project[]>([]);
 
-  const filteredProjects = PROJECTS.filter(p => p.type === filter);
+  useEffect(() => {
+    // Shuffle projects on mount to ensure random order every time
+    const shuffled = [...PROJECTS].sort(() => Math.random() - 0.5);
+    setProjects(shuffled);
+  }, []);
+
+  const filteredProjects = projects.filter(p => p.type === filter);
 
   return (
-    <section id="work" className="py-24 bg-beige-200">
+    <section id="work" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
 
         <div className="text-center mb-16">

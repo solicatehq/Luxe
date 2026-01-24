@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 
 export const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-24 bg-beige-200 overflow-hidden">
       <div className="text-center mb-16 px-6">
         <h2 className="font-serif text-3xl text-stone-800">Client Love</h2>
       </div>
@@ -20,7 +20,7 @@ export const Testimonials: React.FC = () => {
           {/* Set 1 */}
           <div className="flex flex-shrink-0 px-4">
             {TESTIMONIALS.map((t) => (
-              <div key={t.id} className="w-[300px] md:w-[400px] bg-beige-50 p-6 md:p-8 border border-beige-200 mx-4 flex-shrink-0 select-none">
+              <div key={t.id} className="w-[300px] md:w-[400px] bg-beige-50 p-6 md:p-8 border border-white/60 mx-4 flex-shrink-0 select-none">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-2">
                     <div className="w-8 h-8 bg-stone-200 rounded-full flex items-center justify-center">
@@ -41,7 +41,7 @@ export const Testimonials: React.FC = () => {
           {/* Set 2 (Duplicate for loop) */}
           <div className="flex flex-shrink-0 px-4">
             {TESTIMONIALS.map((t) => (
-              <div key={`${t.id}-duplicate`} className="w-[300px] md:w-[400px] bg-beige-50 p-6 md:p-8 border border-beige-200 mx-4 flex-shrink-0 select-none">
+              <div key={`${t.id}-duplicate`} className="w-[300px] md:w-[400px] bg-beige-50 p-6 md:p-8 border border-white/60 mx-4 flex-shrink-0 select-none">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-2">
                     <div className="w-8 h-8 bg-stone-200 rounded-full flex items-center justify-center">
