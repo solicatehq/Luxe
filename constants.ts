@@ -100,9 +100,9 @@ export const RATES: RatePackage[] = [
     features: ['1 Instagram Reel (30-60s)', 'Story Mention', 'Product Integration', 'Rights: Organic usage'],
   },
   {
-    title: 'Non-Collaboration Reel',
+    title: 'Non-Collaboration Package',
     price: '₹5,000',
-    features: ['1 High-Quality Reel', 'Story Mention', 'Scripting & Editing', 'Rights: Organic usage'],
+    features: ['One Reel (Non-Collab)', 'One Carousel', 'One Story'],
     isHighlight: true,
   },
   {
