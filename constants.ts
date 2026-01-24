@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
   // VIDEOS
   {
     id: '1',
-    title: 'Morning Skincare Routine',
+    title: 'Jewellery haul',
     category: 'UGC Reel',
     thumbnailUrl: '/luxephoto1.jpeg',
     videoUrl: '/luxevideo1.mp4',
@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: 'Summer Outfit Haul',
+    title: 'ASMR Video',
     category: 'Lifestyle',
     thumbnailUrl: '/luxephoto2.jpeg',
     videoUrl: '/luxevideo2.mp4',
