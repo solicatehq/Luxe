@@ -28,15 +28,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
-    title: 'Product Unboxing: Serum',
-    category: 'Product Demo',
+    title: 'Featuring: Toner',
+    category: 'UGC Reel',
     thumbnailUrl: '/luxephoto3.jpeg',
     videoUrl: '/luxevideo3.mp4',
     type: 'video',
   },
   {
     id: '4',
-    title: 'Aesthetic Coffee Shop',
+    title: 'Lipstick glow up',
     category: 'Lifestyle Integration',
     thumbnailUrl: '/luxephoto4.jpeg',
     videoUrl: '/luxevideo4.mp4',
