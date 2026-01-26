@@ -7,12 +7,12 @@ export const Hero: React.FC = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Decorative Element */}
       <div className="absolute inset-0 z-0">
-          <img 
-            src="/luxeai4.jpeg" 
-            alt="Background" 
-            className="w-full h-full object-cover opacity-30" 
-          />
-          <div className="absolute inset-0 bg-white/80" />
+        <img
+          src="/luxeai4.jpeg"
+          alt="Background"
+          className="w-full h-full object-cover opacity-100"
+        />
+        <div className="absolute inset-0 bg-white/80" />
       </div>
       <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-stone-300/10 rounded-full blur-[100px] -z-10" />
       <div className="absolute bottom-1/4 left-1/4 w-[300px] h-[300px] bg-beige-300/20 rounded-full blur-[80px] -z-10" />
