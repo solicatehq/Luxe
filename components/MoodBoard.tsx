@@ -7,8 +7,8 @@ export const MoodBoard: React.FC = () => {
     // 3. luxeai3: 1x2 (Right Column, spans both rows)
     // 4. luxeai4: 2x1 (Bottom Left, spans first two columns)
     const images = [
-        { src: '/luxeai1.jpeg', alt: 'Minimalist aesthetic', span: 'col-span-1 row-span-1' },
-        { src: '/luxeai2.jpeg', alt: 'Fashion editorial', span: 'col-span-1 row-span-1' },
+        { src: '/iascent.jpeg', alt: 'Example of commercial product photography', span: 'col-span-1 row-span-1' },
+        { src: '/luxe-perfume-oudh.png', alt: 'Luxury product composition', span: 'col-span-1 row-span-1' },
         { src: '/luxeai3.jpeg', alt: 'Architecture detail', span: 'col-span-1 row-span-2' },
         { src: '/luxeai4.jpeg', alt: 'Lifestyle composition', span: 'col-span-2 row-span-1' },
     ];
