@@ -8,6 +8,7 @@ import { Rates } from './components/Rates';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { HowItWorks } from './components/HowItWorks';
+import { MoodBoard } from './components/MoodBoard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <MoodBoard />
         <HowItWorks />
         <Portfolio />
         <Brands />

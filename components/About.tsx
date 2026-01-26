@@ -32,7 +32,7 @@ export const About: React.FC = () => {
             <div className="absolute inset-0 bg-stone-100 overflow-hidden">
               <img
                 // Professional woman in neutral blazer/chic attire
-                src="/luxephoto2.jpeg"
+                src="/luxeai2.jpeg"
                 alt="Ayesha Malkani"
                 className="object-cover w-full h-full opacity-90 grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out"
               />
