@@ -159,4 +159,16 @@ export const TESTIMONIALS: Testimonial[] = [
     platform: 'Instagram',
     text: 'Thank you so much for the wonderful collaboration. I’m really happy with the way you showcased my perfume-the content was creative, elegant, and perfectly aligned with the brand. The response has been very positive, and I truly appreciate the effort and professionalism you put into this project. Looking forward to working together again in the future 🌹✨',
   },
+  {
+    id: '5',
+    author: 'Solicate',
+    platform: 'Instagram',
+    text: 'It was truly professional working with you, Ayesha. I really admired the way you provided guidance on the creative direction, and the way you were always open to honest suggestions to make the outcome better. Your clear vision made the collaboration seamless!',
+  },
+  {
+    id: '6',
+    author: 'Smell4U',
+    platform: 'Instagram',
+    text: 'Grateful for the collaboration. Loved your creative expression and attention to detail truly aligned with Smell4U\'s brand identity.',
+  },
 ];
